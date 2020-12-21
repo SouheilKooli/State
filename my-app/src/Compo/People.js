@@ -1,15 +1,13 @@
-
 import React, { Component } from 'react';
 import { Card, ListGroup, ListGroupItem} from "react-bootstrap";
-import  './css/Main.css'
-import profilphoto from "src/Parts/lambda.png"
+import profilphoto from "./../Parts/lambda.png"
 
 class Person extends Component {
    state = {
        imgSrc: profilphoto,
        fullName: "Souheil Kooli",
        bio: "Lorem",
-       profession: "Unemployed",
+       profession: "Full-Stack JavaScript Bootcamp",
        show: false,
     };
    handleClick = () => {
